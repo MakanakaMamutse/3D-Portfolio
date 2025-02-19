@@ -24,7 +24,7 @@
 
 ## 📸 Screenshots
 
-*(Add project screenshots here)*
+![Screenshot 2025-02-19 125656](https://github.com/user-attachments/assets/6f3ef0e5-f8f2-4349-8a24-14d3ad85d6f6)
 
 
 
