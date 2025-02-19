@@ -3,6 +3,8 @@ import {
     backend,
     creator,
     web,
+
+
     javascript,
     typescript,
     html,
@@ -15,6 +17,11 @@ import {
     git,
     figma,
     docker,
+    Java, 
+    Python,
+    mySQL,
+
+
     meta,
     starbucks,
     Lead4Life,
@@ -88,8 +95,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "mySQL",
+      icon: mySQL,
     },
     {
       name: "Tailwind CSS",
@@ -112,12 +119,12 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Java",
+      icon: Java,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Python",
+      icon: Python,
     },
   ];
   
@@ -127,7 +134,7 @@ import {
       company_name: "Shop2Shop",
       icon: Shop2Shop,
       iconBg: "#FFA500",
-      date: "2022 - 2023",
+      date: " Late 2022 - Mid 2023",
       points: [
         "Processed and verified customer legal documents to ensure compliance with Know Your Customer (KYC) regulations on the company’s native application.",
         "Collaborated with cross-functional teams to streamline document verification processes, improving efficiency and accuracy.",
@@ -153,7 +160,7 @@ import {
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Aug 2023 - Dec 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -162,16 +169,15 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Full Stack Developer",
       company_name: "Meta",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2025 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "This is some dummy text. I'm working towards the next mission",
       ],
     },
   ];

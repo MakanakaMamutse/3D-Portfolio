@@ -22,6 +22,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import mySQL from "./tech/mySQL.png";
+import Python from "./tech/Python.png";
+import Java from "./tech/Java.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -45,6 +47,8 @@ export {
   github,
   menu,
   close,
+
+
   css,
   docker,
   figma,
@@ -58,6 +62,11 @@ export {
   tailwind,
   typescript,
   threejs,
+  Java,
+  Python,
+  mySQL,
+
+
   meta,
   shopify,
   Shop2Shop,
