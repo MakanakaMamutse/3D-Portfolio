@@ -34,6 +34,7 @@ import {
     threejs,
     Shop2Shop,
     ComingSoon,
+    portfolio3D,
   } from "../assets";
   
   // Navigation links for the application, defining the sections available in the navigation bar
@@ -218,9 +219,9 @@ import {
   // Projects worked on, including descriptions, technologies used, and links to source code
   const projects = [
     {
-      name: "Something Car's",
+      name: "3D Portfolio",
       description:
-        "This project is in the making. I'm not sure excatly when i'll finish, as im cooking other pots aswell...",
+        "A stunning 3D portfolio website I built with cutting-edge web technologies to showcase my projects and skills in an interactive and engaging way.",
       tags: [
         {
           name: "react",
@@ -234,9 +235,13 @@ import {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "vite",
+          color: "orange-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: portfolio3D,
+      source_code_link: "https://github.com/MakanakaMamutse/3D-Portfolio",
     },
     {
       name: "Lorem Ipsum",

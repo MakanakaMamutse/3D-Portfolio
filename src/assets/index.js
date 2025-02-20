@@ -33,6 +33,7 @@ import Shop2Shop from "./company/Shop2Shop.png";
 import Lead4Life from "./company/Lead4Life.png";
 
 import carrent from "./carrent.png";
+import portfolio3D from "./portfolio3D.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ComingSoon from "./ComingSoon.jpg";
@@ -73,7 +74,10 @@ export {
   Lead4Life,
   starbucks,
   tesla,
+
+
   carrent,
+  portfolio3D,
   jobit,
   tripguide,
   ComingSoon,
