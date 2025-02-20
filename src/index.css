@@ -1,24 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Import Poppins font from Google Fonts */
 
+/* Imported Tailwind base styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Applying global styles to all elements */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
-  color-scheme: dark;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Ensure padding and border are included in element's total width/height */
+  font-family: "Poppins", sans-serif; /* Set default font */
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+  color-scheme: dark; /* Apply dark mode color scheme */
 }
 
+/* Offseting for anchor links to avoid overlapping with fixed headers */
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
   display: block;
 }
 
+/* Gradient backgrounds for different UI elements */
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -49,6 +54,7 @@
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
 
+/* Text gradients for stylish headings and text elements */
 .orange-text-gradient {
   background: #f12711; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -126,6 +132,7 @@
   transform: translateZ(0);
 }
 
+/* Keyframes for spinning animation */
 @keyframes mulShdSpin {
   0%,
   100% {

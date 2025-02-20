@@ -1,3 +1,4 @@
+// Imported assets including icons, logos, and images for use throughout the application
 import {
     mobile,
     backend,
@@ -35,6 +36,7 @@ import {
     ComingSoon,
   } from "../assets";
   
+  // Navigation links for the application, defining the sections available in the navigation bar
   export const navLinks = [
     {
       id: "about",
@@ -54,6 +56,7 @@ import {
     },
   ];
   
+  // Services offered or roles performed, each associated with an icon for visual representation
   const services = [
     {
       title: "Web Developer",
@@ -73,6 +76,7 @@ import {
     },
   ];
   
+  // Technologies and tools used, each paired with an icon for display purposes
   const technologies = [
     {
       name: "HTML 5",
@@ -128,6 +132,7 @@ import {
     },
   ];
   
+  // Professional experiences, detailing roles, companies, and key responsibilities
   const experiences = [
     {
       title: "Operations Intern",
@@ -181,7 +186,8 @@ import {
       ],
     },
   ];
-  
+
+  // Testimonials from clients or colleagues, highlighting feedback and endorsements
   const testimonials = [
     {
       testimonial:
@@ -209,6 +215,7 @@ import {
     },
   ];
   
+  // Projects worked on, including descriptions, technologies used, and links to source code
   const projects = [
     {
       name: "Something Car's",
@@ -275,4 +282,5 @@ import {
     },
   ];
   
+  // Exported constants for use in other parts of the application
   export { services, technologies, experiences, testimonials, projects };
