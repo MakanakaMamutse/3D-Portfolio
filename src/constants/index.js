@@ -228,7 +228,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "nextjs",
           color: "green-text-gradient",
         },
         {
