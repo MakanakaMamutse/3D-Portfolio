@@ -244,25 +244,29 @@ import {
       source_code_link: "https://github.com/MakanakaMamutse/3D-Portfolio",
     },
     {
-      name: "Lorem Ipsum",
+      name: "Facial Recognition",
       description:
-        "New projects are in the works. Stay tuned for updates—I’m excited to share them with you soon.",
+        "This project is a facial recognition-based attendance system for online school portals, classrooms or school photo verification. Uses facial recognition to identify students.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "opencv",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "dlib",
           color: "pink-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "orange-text-gradient",
         },
       ],
       image: ComingSoon,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/MakanakaMamutse/FacialRecognitionAttendance",
     },
     {
       name: "Lorem Ipsum",
