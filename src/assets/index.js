@@ -34,6 +34,7 @@ import Lead4Life from "./company/Lead4Life.png";
 
 import carrent from "./carrent.png";
 import portfolio3D from "./portfolio3D.png";
+import facialRecognition from "./facialRecognition.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ComingSoon from "./ComingSoon.jpg";
@@ -78,6 +79,7 @@ export {
 
   carrent,
   portfolio3D,
+  facialRecognition,
   jobit,
   tripguide,
   ComingSoon,

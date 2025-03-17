@@ -35,6 +35,7 @@ import {
     Shop2Shop,
     ComingSoon,
     portfolio3D,
+    facialRecognition,
   } from "../assets";
   
   // Navigation links for the application, defining the sections available in the navigation bar
@@ -265,7 +266,7 @@ import {
           color: "orange-text-gradient",
         },
       ],
-      image: ComingSoon,
+      image: facialRecognition,
       source_code_link: "https://github.com/MakanakaMamutse/FacialRecognitionAttendance",
     },
     {
