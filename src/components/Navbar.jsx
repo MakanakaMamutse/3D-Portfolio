@@ -33,7 +33,7 @@ const Navbar = () => {
           <img src="/mLogo.png" alt='logo' className='w-10 h-10 object-contain' />
           {/* My name with conditional rendering for responsiveness */}
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-            Makanaka &nbsp; <span className='sm:block hidden'>| Mamutse</span>
+            Makanaka&nbsp; <span className='sm:block hidden'>|&nbsp;Mamutse</span>
           </p>
         </Link>
 
