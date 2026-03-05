@@ -10,6 +10,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import Footer from './Footer';
 
 // Exported all components for easy imports elsewhere in the project
 export {
@@ -21,9 +22,10 @@ export {
   Works,
   Feedbacks,
   Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
+  Footer,
+  EarthCanvas,
+  BallCanvas,
+  ComputersCanvas,
   StarsCanvas
 };
 // This file serves as a central export hub for all components in the project.

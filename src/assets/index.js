@@ -38,6 +38,8 @@ import facialRecognition from "./facialRecognition.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ComingSoon from "./ComingSoon.jpg";
+import EcommercePHP from "./EcommercePHP.jpg";
+import CitiWay from "./CitiWay.jpg";
 
 export {
   logo,
@@ -49,7 +51,6 @@ export {
   github,
   menu,
   close,
-
 
   css,
   docker,
@@ -68,7 +69,6 @@ export {
   Python,
   mySQL,
 
-
   meta,
   shopify,
   Shop2Shop,
@@ -76,11 +76,12 @@ export {
   starbucks,
   tesla,
 
-
   carrent,
   portfolio3D,
   facialRecognition,
   jobit,
   tripguide,
   ComingSoon,
+  EcommercePHP,
+  CitiWay,
 };

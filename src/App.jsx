@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer } from "./components";
 
 import { Analytics } from "@vercel/analytics/react"; // Import Analytics
 
@@ -18,8 +18,9 @@ const App = () => {
         <Tech />
         <Works />
         <Feedbacks />
-        <div className='relative z-0'> {/* Created a nested div to maintain layering and Rendered remaining Components */}
+        <div className='relative z-0'> {/* Created a nested div to maintain layering */}
           <Contact />
+          <Footer />
           <StarsCanvas />
         </div>
       </div>

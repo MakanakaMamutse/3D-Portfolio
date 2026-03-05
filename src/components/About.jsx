@@ -50,15 +50,18 @@ const About = () => {
       </motion.div>
 
       {/* Animated paragraph with fade-in effect */}
-      <motion.p 
+      <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a software developer and consultant with hands-on experience
+        building full-stack web applications, mobile apps, and AI-integrated
+        systems. I work independently across the entire stack — from responsive
+        frontends using React and modern frameworks, to robust backends with
+        Node.js, PHP, and Python. I've delivered complete digital transformation
+        projects, architected scalable systems, and provided technical guidance
+        to clients across diverse industries. Let's work together to bring your
+        ideas to life.
       </motion.p>
 
       {/* Service Cards */}
