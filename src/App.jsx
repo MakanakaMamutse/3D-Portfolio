@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer } from "./components";
+import { About, ClientBuilds, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Journey, Footer } from "./components";
 
 import { Analytics } from "@vercel/analytics/react"; // Import Analytics
 
@@ -16,11 +16,13 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
+        <ClientBuilds /> {/* Client websites, shown above the personal projects */}
         <Works />
         <Feedbacks />
         <div className='relative z-0'> {/* Created a nested div to maintain layering */}
           <Contact />
           <Footer />
+          <Journey /> {/* Hidden evidence board — revealed by button after the footer */}
           <StarsCanvas />
         </div>
       </div>

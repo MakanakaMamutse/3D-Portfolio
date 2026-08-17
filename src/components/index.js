@@ -7,9 +7,11 @@ import Navbar from './Navbar';
 import About from './About';
 import Tech from './Tech';
 import Experience from './Experience';
+import ClientBuilds from './ClientBuilds';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import Journey from './Journey';
 import Footer from './Footer';
 
 // Exported all components for easy imports elsewhere in the project
@@ -19,9 +21,11 @@ export {
   About,
   Tech,
   Experience,
+  ClientBuilds,
   Works,
   Feedbacks,
   Contact,
+  Journey,
   Footer,
   EarthCanvas,
   BallCanvas,

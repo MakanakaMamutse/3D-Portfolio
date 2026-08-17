@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* Import Poppins font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&display=swap");
+/* Caveat: handwritten font for the Journey evidence-board polaroid captions */
 
 /* Imported Tailwind base styles */
 @tailwind base;

@@ -41,6 +41,10 @@ import ComingSoon from "./ComingSoon.jpg";
 import EcommercePHP from "./EcommercePHP.jpg";
 import CitiWay from "./CitiWay.jpg";
 
+// Screenshots of live client websites (Featured Client Builds section)
+import PrimeProjectsSite from "./PrimeProjectsSite.jpg";
+import Lead4LifeSite from "./Lead4LifeSite.jpg";
+
 export {
   logo,
   mLogo,
@@ -84,4 +88,7 @@ export {
   ComingSoon,
   EcommercePHP,
   CitiWay,
+
+  PrimeProjectsSite,
+  Lead4LifeSite,
 };

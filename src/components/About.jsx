@@ -58,9 +58,10 @@ const About = () => {
         building full-stack web applications, mobile apps, and AI-integrated
         systems. I work independently across the entire stack — from responsive
         frontends using React and modern frameworks, to robust backends with
-        Node.js, PHP, and Python. I've delivered complete digital transformation
-        projects, architected scalable systems, and provided technical guidance
-        to clients across diverse industries. Let's work together to bring your
+        Node.js, PHP, Python, and C#. I've delivered complete digital
+        transformation projects, architected scalable systems, shipped
+        production websites for clients, and provided technical guidance
+        to businesses across diverse industries. Let's work together to bring your
         ideas to life.
       </motion.p>
 

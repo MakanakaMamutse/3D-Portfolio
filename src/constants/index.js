@@ -35,6 +35,8 @@ import {
     facialRecognition,
     EcommercePHP,
     CitiWay,
+    PrimeProjectsSite,
+    Lead4LifeSite,
   } from "../assets";
 
   export const navLinks = [
@@ -162,4 +164,81 @@ import {
     },
   ];
 
-  export { services, technologies, experiences, testimonials, projects };
+  // Websites built for paying clients — rendered in the "Featured Client Builds"
+  // section directly above Projects. Two side-by-side cards.
+  // Leaving `source_code_link` out entirely hides the GitHub icon on that card
+  // (useful when the client's code is private) — the globe icon always shows.
+  const clientBuilds = [
+    {
+      name: "Prime Projects",
+      description:
+        "Marketing website for a construction and renovation business. Full-bleed hero, a clear breakdown of services, a portfolio of completed work, and a direct enquiry flow that turns visitors into project leads.",
+      tags: [
+        { name: "construction", color: "blue-text-gradient" },
+        { name: "renovation", color: "green-text-gradient" },
+        { name: "marketing-site", color: "pink-text-gradient" },
+        { name: "lead-capture", color: "orange-text-gradient" },
+      ],
+      image: PrimeProjectsSite,
+      live_site_link: "https://primeprojects.co.za/",
+      source_code_link: "https://github.com/MakanakaMamutse/Prime-Projects-Construction-Website",
+    },
+    {
+      name: "Lead4Life",
+      description:
+        "Website for a leadership development company running experiential learning programmes. Programme pages, layered navigation, and contact routes built to reach schools, teams, and corporate partners.",
+      tags: [
+        { name: "education", color: "blue-text-gradient" },
+        { name: "leadership", color: "green-text-gradient" },
+        { name: "multi-page", color: "pink-text-gradient" },
+        { name: "live-chat", color: "orange-text-gradient" },
+      ],
+      image: Lead4LifeSite,
+      live_site_link: "https://www.lead4life.co.za/",
+      source_code_link: "https://github.com/MakanakaMamutse/Lead4Life-Website",
+    },
+  ];
+
+  // Evidence board moments for the Journey section.
+  // To add a real photo: drop it in src/assets/journey/, import + export it in
+  // src/assets/index.js, import it at the top of this file, then replace `image: null` below.
+  const journeyMoments = [
+    {
+      caption: "Where it all began",
+      date: "The early days",
+      blurb: "First lines of code, many broken builds.",
+      image: null,
+    },
+    {
+      caption: "Hackathon mode",
+      date: "48 hours, no sleep",
+      blurb: "Shipping under pressure with a great team.",
+      image: null,
+    },
+    {
+      caption: "First real clients",
+      date: "2023",
+      blurb: "Consulting and building for actual businesses.",
+      image: null,
+    },
+    {
+      caption: "CitiWay comes alive",
+      date: "2024",
+      blurb: "One app for Cape Town's buses and trains.",
+      image: null,
+    },
+    {
+      caption: "Graduation day",
+      date: "2025",
+      blurb: "Made it official.",
+      image: null,
+    },
+    {
+      caption: "What's next...",
+      date: "To be continued",
+      blurb: "The board keeps growing.",
+      image: null,
+    },
+  ];
+
+  export { services, technologies, experiences, testimonials, projects, clientBuilds, journeyMoments };
